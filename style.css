@@ -92,6 +92,7 @@ html,body{
 		background-color: rgb(24, 159, 186);
 		padding: 70px 10px 20px 10px;
 		transition: all 0.3s ease 0s;
+		overflow: auto;
 	}
 	.header__menu.active {
 		top: 0;
@@ -155,6 +156,9 @@ html,body{
 
 	.header__list li {
 		margin: 0px  0px  20px  0px;
+	}
+	.header__link {
+		font-size: 24px;
 	}
 }
 .content {
